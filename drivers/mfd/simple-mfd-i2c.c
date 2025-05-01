@@ -99,6 +99,9 @@ static const struct of_device_id simple_mfd_i2c_of_match[] = {
 	{ .compatible = "maxim,max5970", .data = &maxim_max5970},
 	{ .compatible = "maxim,max5978", .data = &maxim_max5970},
 	{ .compatible = "maxim,max77705-battery", .data = &maxim_mon_max77705},
+	{ .compatible = "fsl,lx2160a-qds-qixis-i2c" },
+	{ .compatible = "fsl,lx2162a-qds-qixis-i2c" },
+	{ .compatible = "fsl,ls1028a-qds-qixis-i2c" },
 	{}
 };
 MODULE_DEVICE_TABLE(of, simple_mfd_i2c_of_match);
